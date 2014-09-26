@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/tv_topic_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:drawableLeft="@drawable/topic_title_arr"
+        android:drawablePadding="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#141414"
+        android:textSize="18sp" />
+
+    <!--
+         <com.qianlong.android.view.MyListView
+        android:id="@+id/lv_topic_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+         />
+    -->
+
+    <ImageView
+        android:id="@+id/iv_topic"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/pic_item_list_default"
+        android:scaleType="fitXY" />
+
+</LinearLayout>
